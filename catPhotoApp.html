@@ -45,10 +45,16 @@
                 <h2>Cat Form</h2>
                 <form action="https://freecatphotoapp.com/submit-cat-photo">
                     <fieldset>
-                    <legend>Is your cat an indoor or outdoor cat?</legend>
-                    <label><input value = "indoor" name = "indoor-outdoor" type="radio" id="indoor"> Indoor</label>
-                    <label><input value = "outdoor" name = "indoor-outdoor" id = "outdoor" type = "radio"> Outdoor</label>
+                        <legend>Is your cat an indoor or outdoor cat?</legend>
+                        <label><input value = "indoor" name = "indoor-outdoor" type="radio" id="indoor"> Indoor</label>
+                        <label><input value = "outdoor" name = "indoor-outdoor" id = "outdoor" type = "radio"> Outdoor</label>
                     </fieldset>
+
+                    <fieldset>
+                        <legend>What's your cat's personality?</legend>
+                        <input id="loving" type="checkbox"> Loving
+                    </fieldset>
+
                     <input type="text" name="catphotourl" placeholder="cat photo URL" required>
                     <button type = "submit">Submit</button>
                 </form>
