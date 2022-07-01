@@ -18,6 +18,8 @@ body {
 
 h1 {
     font-size: 40px;
+    margin-top: 0;
+    margin-bottom:15px;
 }
   
 h2 {
@@ -71,7 +73,7 @@ a {
 }
 
 a:visited {
-    color: grey;
+    color: black;
 }
 
 a:hover {
@@ -79,5 +81,9 @@ a:hover {
 }
 
 a:active {
-    color: white;
+    color: brown;
+}
+
+.address {
+    margin-bottom: 15px;
 }
