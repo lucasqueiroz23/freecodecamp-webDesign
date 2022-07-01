@@ -87,3 +87,9 @@ a:active {
 .address {
     margin-bottom: 15px;
 }
+
+img {
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+}
